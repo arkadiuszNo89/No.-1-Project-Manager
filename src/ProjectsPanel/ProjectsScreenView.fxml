@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="rootPane" prefHeight="400.0" prefWidth="639.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectsPanel.ProjectsScreenController">
+   <top>
+      <HBox prefHeight="53.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="AddProjectButton" mnemonicParsing="false" onAction="#AddProjectButtonClick" prefHeight="35.0" prefWidth="35.0" text="+">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="backToMenuButton" mnemonicParsing="false" onAction="#backToMenuButtonClick" prefHeight="35.0" prefWidth="35.0" text="M">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+            <ChoiceBox fx:id="choiceBoxSort" prefHeight="35.0" prefWidth="70.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </ChoiceBox>
+            <ChoiceBox fx:id="choiceBoxLayoutChange" prefHeight="35.0" prefWidth="70.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </ChoiceBox>
+            <Button fx:id="changeLayoutButton" mnemonicParsing="false" onAction="#changeLayoutButtonClick" prefHeight="35.0" prefWidth="35.0" text="OK">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+            <Separator orientation="VERTICAL" prefHeight="200.0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Separator>
+            <ImageView fx:id="iconSave" fitHeight="35.0" fitWidth="35.0" onMouseClicked="#clickIconSave" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets left="5.0" top="10.0" />
+               </HBox.margin>
+               <image>
+                  <Image url="@../../Actions-document-save-as-icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="iconFunc" fitHeight="35.0" fitWidth="35.0" onMouseClicked="#ClickIconFunc" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <image>
+                  <Image url="@../../function-512.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="functionButton1" mnemonicParsing="false" prefHeight="35.0" prefWidth="60.0" text="1">
+               <HBox.margin>
+                  <Insets left="5.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="functionButton2" mnemonicParsing="false" prefHeight="35.0" prefWidth="60.0" text="2">
+               <HBox.margin>
+                  <Insets left="5.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="functionButton3" mnemonicParsing="false" prefHeight="35.0" prefWidth="60.0" text="3">
+               <HBox.margin>
+                  <Insets left="5.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="infoIcon" fitHeight="43.0" fitWidth="34.0" onMouseClicked="#clickInfoIcon" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Warning-icon.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="5.0" top="10.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>
