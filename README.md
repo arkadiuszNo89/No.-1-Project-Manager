@@ -1,7 +1,7 @@
 # No.-1-Project-Manager
 Training issues with a little bigger project than a small one-lesson-course-taken
 
-Aplikacja, która posłużyła mi jako trening podczas przechodzenia kursu Javy.
+Aplikacja, która posłużyła mi jako trening podczas przechodzenia kursu Javy (Jej rozwinięcie i ulepszenie to aplikacja No. 4).
 Jej założeniem było wyjście poza małe projekty w kursie wykonywane.
 Chciałem ująć w niej logikę interakcji pomiędzy klasami oraz przećwiczyć kilka zagadnień w trochę większej skali, czyli m.in.:
   - dynamiczne tworzenie obiektów oraz zarządzanie nimi poprzez listy
